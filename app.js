@@ -38,8 +38,6 @@ app.get("/", (req, res) => {
     res.send("Finance Backend Running...");
 });
 
-
-
 // Start server AFTER DB connection
 async function startServer() {
     try {
